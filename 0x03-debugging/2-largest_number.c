@@ -14,16 +14,14 @@ int largest;
 
 if (a > b && b > c)
 {
-putchar = (a);
+putchar (a);
 }
 else if (b > a && a > c)
 {
-putchar = (b);
+putchar (b);
 }
 else
 {
 putchar (c);
-}
-
 return (0);
 }
